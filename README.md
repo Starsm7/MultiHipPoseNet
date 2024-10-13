@@ -2,7 +2,7 @@
 
 This is a pytorch implementation of MultiHipPoseNet, a multitasking model for structure segmentation and keypoint detection
 
-![](https://github.com/Starsm7/MultiHipPoseNet/blob/main/nets/schematic illustration.png)
+![](https://github.com/Starsm7/MultiHipPoseNet/blob/main/nets/schematic_illustration.png)
 
 The schematic illustration of the MuiltHipPoseNet algorithm. Firstly, hip joint ultrasound images are fed into the network, followed by feature extraction utilizing the multi-expert gated channel transformation unit, ME-GCT. Next, the feature maps generated from the structure and landmark detection branches are sent to the multi-task graph adaptive learning mechanism, MT-GALM. Finally, we derive seven estimated mask markings and six predicted landmarks from the detection branches for DDH analysis. 
 
